@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Alchemy
+Comment=Client for accessing 3D virtual worlds
+Exec=sh -c "export ALCHEMYNEXT_USER_DIR=/data/SL/users/AV2/ALRelease; mkdir -p "$ALCHEMYNEXT_USER_DIR"; /data/SL/viewers/ALRelease/alchemy"
+Icon=/data/SL/viewers/ALResease/alchemy_icon.png
+Terminal=false
+Type=Application
+Categories=SL;AV2;
+StartupNotify=true
+X-Desktop-File-Install-Version=3.0
+StartupWMClass=do-not-directly-run-alchemy-bin
+

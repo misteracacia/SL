@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Firestorm
+Comment=Client for accessing 3D virtual worlds
+Exec=sh -c "export FIRESTORM_X64_USER_DIR=/data/SL/users/AV1/FSRelease; mkdir -p "$FIRESTORM_X64_USER_DIR"; /data/SL/viewers/FSRelease/firestorm"
+Icon=/data/SL/viewers/FSRelease/firestorm_icon.png
+Terminal=false
+Type=Application
+Categories=SL;AV1;
+StartupNotify=true
+X-Desktop-File-Install-Version=3.0
+
